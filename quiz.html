@@ -1,0 +1,81 @@
+<header>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+    <!-- Title at the top of the Webpage tab -->
+    <title>Quiz</title>
+  </head></header>
+  
+  <nav>
+  <header>Welcome to your Ancient Temples Quiz!</header>
+
+  <body>
+    <p>Please select the correct answer.</p><br/>
+
+    <p>What was the name of the Triad Konshu was in?</p>
+    <!-- Correct anser is Theban Triad -->
+    <form>
+    <fieldset>
+    <input type="checkbox" id="konshu" name="konshu" value="The_Triplets"required>
+    <label for="konshu">The Triplets</label><br>
+    <input type="checkbox" id="konshu" name="konshu" value="Theban_Triad"required>
+    <label for="konshu">Theban Triad</label><br>
+    <input type="checkbox" id="konshu" name="konshu" value="Thankbank_Triad"required>
+    <label for="konshu">Thanbank Triad</label><br/><br/>
+    <input type="submit" value="Submit"><br/>
+    </fieldset>
+    </nav>
+  
+    <section>
+    <fieldset>
+    <label for="Giza">How where the Pharohs in the Pyramids related?</label><br>
+    <!-- Correct Answer is Father, Son, Grandson  -->
+    <select name="giza" id="giza">
+    <option value="brothers">Brothers</option>
+    <option value="father">Father, Son, Grandson</option>
+    <option value="sisters">Sisters</option>
+    <option value="mother">Mother, Daughter, Granddaughter</option><br/>
+    <input type="submit" value="Submit"><br/>
+    </fieldset>
+    </select>
+
+    <fieldset>
+    <!-- The correct answer is 426 and 421 B.C.-->
+    <p>When was Athena's Temple built?</p>
+    <textarea name="message" rows="10" cols="30">
+    </textarea><br>
+    <input type="submit" value="Submit"><br/>
+    </fieldset>
+    </section>
+
+    <article> 
+    <p>Why was the Colosseum built?</p>
+    <fieldset>  
+    <!-- The correct answer is All of the above -->
+    <input type="radio" id=" " name=" " value=" ">
+    <label for="Colosseum">To watch gladiators fight</label><br/>
+    <input type="radio" id=" " name=" " value=" ">
+    <label for="Colosseum">Entertainment venue</label><br/>
+    <input type="radio" id=" " name=" " value=" ">
+    <label for="Colosseum">Animal hunts</label><br/>
+    <input type="radio" id=" " name=" " value=""> 
+    <label for="Colosseum">All of the Above</label><br/><br/>
+    <input type="submit" value="Submit"><br/>
+    </fieldset><br/>
+    </article>
+
+    <footer>
+    <fieldset>
+    <!-- there is no correct answer -->
+    <label for="vol">How much did you like my website?</label>
+    <input type="range" id="vol" name="vol" min="0" max="100">
+    <input type="submit">
+    </fieldset>
+    </form><br />
+    <!-- finish the quiz and take you to the ending -->
+    <a href="ending.html">Finish Quiz</a>
+    </footer>
+  </body>
+</html>
